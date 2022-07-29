@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:jsdoc/recommended", "plugin:regexp/recommended", "prettier"],
+  "globals": {
+    "registerPlugin": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "plugins": ["jsdoc", "regexp"],
+  "rules": {
+    "prefer-const": "warn",
+    "jsdoc/require-jsdoc": "off"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "insertPragma": false,
+  "printWidth": 120,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 4,
+  "trailingComma": "none",
+  "useTabs": false,
+  "jsdocDescriptionWithDot": true,
+  "jsdocVerticalAlignment": true,
+  "jsdocPrintWidth": 80,
+  "plugins": ["./node_modules/prettier-plugin-packagejson", "./node_modules/prettier-plugin-jsdoc"],
+  "overrides": [
+    {
+      "files": "*.{json,yml,yaml,prettierrc,eslintrc}",
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
